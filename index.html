@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIY Atölyem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        h2 {
+            color: #007bff;
+        }
+        .project {
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .project img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .paypal-button {
+            background-color: #28a745; /* Yeşil renk */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 10px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        .paypal-button:hover {
+            background-color: #218838; /* Koyu yeşil renk */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DIY Atölyem</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="proje1.html">Kağıttan Jet Uçak</a></li>
+                <!-- Diğer projeler -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Projelerimiz</h2>
+        <div class="project">
+            <h3><a href="proje1.html">Kağıttan Jet Uçak Yapımı</a></h3>
+            <img src="images/14.jpg" alt="Kağıttan Jet Uçak Yapımı">
+            <p>Bu projede kağıttan jet uçak yapımını adım adım öğrenebilirsiniz.</p>
+        </div>
+        <!-- Diğer projeler -->
+    </main>
+    <footer>
+        <p>&copy; 2024 DIY Atölyem. Tüm hakları saklıdır.</p>
+        <p>İletişim: <a href="mailto:enesyesil321@gmail.com">enesyesil321@gmail.com</a></p>
+        <form action="https://www.paypal.com/donate" method="post" target="_blank">
+            <input type="hidden" name="hosted_button_id" value="YOUR_BUTTON_ID">
+            <input type="submit" value="Bağış Yapın" class="paypal-button">
+        </form>
+    </footer>
+</body>
+</html>
